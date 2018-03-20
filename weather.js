@@ -63,7 +63,7 @@ function getWeather(a, b) {
     $("#change").html(centi + " C");
     $('#message').html(longdescription);
     if (description == "Clear") {
-      $("#image").append('</br> <img class="pic" src="icons/weather_sunset.svg" > </img>');
+      $("#image").append('</br> <img class="pic" src="icons/sun.png" > </img>');
     }
 
     else if (description == "Clouds") {
